@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header Styling */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #bdc3c7;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    width: 90%;
+    margin: 2rem auto;
+    padding: 0;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    flex: 1;
+}
+
+/* Profile Section */
+.profile-section {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ecf0f1;
+    border-bottom: 1px solid #ddd;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #3498db;
+    margin-bottom: 1rem;
+    background-color: #fff;
+}
+
+/* Links & Navigation */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.linkedin-icon img {
+    height: 30px;
+    vertical-align: middle;
+    transition: transform 0.2s;
+}
+
+.linkedin-icon img:hover {
+    transform: scale(1.1);
+}
+
+/* Content Sections */
+.content-block {
+    padding: 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.content-block:last-child {
+    border-bottom: none;
+}
+
+h2 {
+    color: #2c3e50;
+    border-left: 5px solid #3498db;
+    padding-left: 15px;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f9fa;
+    width: 40%;
+    color: #555;
+}
+
+/* Entry / List Styling */
+.entry {
+    margin-bottom: 1.5rem;
+}
+
+.entry h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 0.2rem;
+}
+
+.entry-meta {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.entry p {
+    color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #2c3e50;
+    color: white;
+    margin-top: auto;
+}
+
+footer a {
+    color: #3498db;
+    text-decoration: none;
+}
